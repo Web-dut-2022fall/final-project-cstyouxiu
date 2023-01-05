@@ -145,14 +145,7 @@ def get_one_charpter_content(url):
 4.我总共爬取了8k+本小说，但是理论上可以爬取目标网页上的所有小说
 
 ### 数据库MYSQL以及根据相关字段实现的更新功能。
-  1.数据库的表结构以及爬取的数据图片。
-     表结构，用外键关联
-  ![](https://raw.githubusercontent.com/szk01/img/master/MYSQL-table.png)
-     其中一张表的信息
-  ![](https://raw.githubusercontent.com/szk01/img/master/dateBase.png)
-
-  
-
+ 1.
   由于使用MYSQL的不是Django自带的数据库，那么就要使用pymysql来将爬取的数据插入到数据库中。(下面的代码是如何连接到MYSQL数据的，在test文件中也有相关代码)
 ```python
 import pymysql
@@ -200,7 +193,7 @@ def compare_two_list(charpter,charpter_detail):
   ```
 
 ### 最后网站就完成了
-   在完善Django的其他部分后，也可以加入一些搜索功能，分页功能，第三方登录功能后。
+
 
 
 
