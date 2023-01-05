@@ -1,19 +1,6 @@
 
 
-### 目标网页如图
-
-![1672894975232](D:\1 third year\web\NovelWeb-python-Django-master\README.assets\1672894975232.png)
-
-小说信息
-![](https://raw.githubusercontent.com/szk01/img/master/novelWeb-novelInfo.png)
-
-
-小说目录
-![](https://raw.githubusercontent.com/szk01/img/master/novelWeb-charpter.png)
-
-
-小说详情
-![](https://raw.githubusercontent.com/szk01/img/master/novelWeb-content.png)
+这个项目为使用django框架和python、html代码创建小说网站，网站内的数据都是使用python爬虫从天涯小说网上爬取而来的，可以实现的功能包括查看最热小说，小说目录，小说章节，跳转到小说，用户登录和注册等等。
 
 #### 这个网站所有需要爬取的数据都是用js技术动态渲染的页面，无法直接爬取，可以选择selenium来模拟浏览器来爬取数据。
 
@@ -213,15 +200,7 @@ def compare_two_list(charpter,charpter_detail):
   ```
 
 ### 最后网站就完成了
-   在完善Django的其他部分后，也可以加入一些搜索功能，分页功能，第三方登录功能后。这个是属于Django的方面，并不难，稍微研究一下就知道了。最后网站就做好了。
-  小说首页
-  ![](https://raw.githubusercontent.com/szk01/img/master/webShow.png)
-
-  随便点击一本小说
-  ![](https://raw.githubusercontent.com/szk01/img/master/show2.png)
-
- 小说详情页面
- ![](https://raw.githubusercontent.com/szk01/img/master/show3.png)
+   在完善Django的其他部分后，也可以加入一些搜索功能，分页功能，第三方登录功能后。
 
 
 
